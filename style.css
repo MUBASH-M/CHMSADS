@@ -1,0 +1,68 @@
+body{
+	background: #333;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat",sans-serif;
+}
+#particles-js{
+	background-image: url(bg4.jpg);
+	background-size: cover;
+	height: 680px;
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+}
+.container h1{
+	font-size: 40px;
+	margin-top:125px;
+	margin-bottom: 60px;
+}
+.tbox{
+	width:260px;
+	height:40px;
+	background:#f1f1f1b3;
+	border-radius: 10px;
+	margin:10px auto;
+}
+.tbox input{
+	background: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	width: 90%;
+	line-height: 37px;
+	font-family: "Monsterrat",sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+.btn{
+	width: 260px;
+	height: 40px;
+	background: #3498db;
+	border-radius: 10px;
+	margin: 14px auto;
+	display: block;
+	font-family: "Monsterrat",sans-serif;
+	font-size: 16px;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+.b1{
+	display: block;
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	margin:auto;
+	transition:0.4s all;
+}
+a:hover{
+	background-color:#00000040;
+	
+}
